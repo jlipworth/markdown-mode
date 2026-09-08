@@ -13,6 +13,8 @@
     - Do not create the checkbox button multiple times [gh-953][]
 
 *   Improvements:
+    - Avoid unnecessary tree-sitter grammar checks when resolving fenced
+      code block languages
     - Tables aligned in the source stay visually aligned when markup
       hiding or URL hiding narrows the displayed cell contents
     - `markdown-preview` displays the buffer name as the page title
